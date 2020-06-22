@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     main: './src/journal.js',
     main2: './src/main.js',
+    main3: './src/apps.js',
   }
   output: {
     filename: 'bundle.js',

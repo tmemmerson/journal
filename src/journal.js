@@ -5,7 +5,7 @@ exports.JournalEntry = function(title, date, body) { //establish array elements 
 };
 
 exports.JournalEntry.prototype.wordCount = function() { 
-  let string = this.body; //creates string array from body content
-  let string_array = string.split(" "); //splits elements into array on occurance of a space
+  var string = this.body; //creates string array from body content
+  var string_array = string.split(" "); //splits elements into array on occurance of a space
   return string_array.length; //returns the array length, which is the number of word elements in body, which is word count
 };

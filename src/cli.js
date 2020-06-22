@@ -1,5 +1,5 @@
-let JournalEntry = require('./journal.js').JournalEntry;
-let prompt = require('prompt');
+var JournalEntry = require('./journal.js').JournalEntry;
+var prompt = require('prompt');
 prompt.start();
 
 prompt.get(['title', 'date', 'body'], function(err, entry) {
