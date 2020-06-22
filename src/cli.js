@@ -1,8 +1,8 @@
-var JournalEntry = require('./journal.js').JournalEntry;
-var prompt = require('prompt');
+let JournalEntry = require('./journal.js').JournalEntry;
+let prompt = require('prompt');
 prompt.start();
 
 prompt.get(['title', 'date', 'body'], function(err, entry) {
-  var journal = new JournalEntry(entry.title, entry.date, entry.body);
-  var result = journal.wordCount();
+  const journal = new JournalEntry(entry.title, entry.date, entry.body);
+  const result = journal.wordCount();
 });
