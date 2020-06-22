@@ -1,5 +1,5 @@
 {
-  "name": "ping-pong",
+  "name": "journal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "lint": "eslint src/*.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tristan Emmerson",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
