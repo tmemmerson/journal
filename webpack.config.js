@@ -6,6 +6,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
   entry: {
     main: './src/journal.js',
+    main2: './src/main.js',
   }
   output: {
     filename: 'bundle.js',
