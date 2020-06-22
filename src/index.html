@@ -2,14 +2,32 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Ping Pong</title>
+    <script type="text/javascript" src="src/moment.js"></script>
+    <script type="text/javascript" src="src/app.js"></script>
+    <title>Captain's Log</title>
   </head>
   <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
+    <h1>Voyage Log</h1>
+    <form id="journal">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" value="">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" value="">
+      <label for="body">Journal Entry:</label>
+      <input type="text" id="body" name="body" value="">
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <ul class ="output">
+    </ul>
+
+    <form id="comment">
+      <label for="Email">Email</label>
+      <input type="text" id="email" value="">
+      <label for="Comment">Comment</label>
+      <input type="text" id="comment_body" value="">
       <button type="submit">Submit</button>
     </form>
-    <ul id="solution"></ul>
+    <div id="notification">
+    </div>
   </body>
 </html>
